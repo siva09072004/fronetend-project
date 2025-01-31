@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url(https://images5.alphacoders.com/133/thumb-1920-1339453.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* Satellite Dashboard */
+.dashboard-container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.actions-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Styling */
+.satellite-form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.satellite-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type='submit'], .home-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button[type='submit']:hover, .home-button:hover {
+  background-color: #218838;
+}
+
+/* Satellite Details */
+.satellite-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.satellite-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.satellite-details td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .satellite-form-container {
+    width: 100%;
+    padding: 15px;
+  }
+}
